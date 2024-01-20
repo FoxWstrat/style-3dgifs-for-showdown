@@ -1,0 +1,236 @@
+/* Ajout d'un :after après les imgs des Pokémon */
+.innerbattle > div > div:last-child:after,
+.innerbattle > div > div:first-child:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: auto;
+    max-width: 128px;
+    height: auto;
+    max-height: 128px;
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Notre Pokémon */
+.innerbattle > div > div:last-child:after {
+    top: 120px;
+    right: 180px;
+    transform: scaleX(-1);
+}
+
+/* Pokémon adverse */
+.innerbattle > div > div:first-child:after {
+    left: 180px;
+    bottom: 120px;
+}
+
+
+/* Cacher ces images */
+.innerbattle img:last-child[src*="pawmi.png"],
+.innerbattle img:last-child[src*="pawmo.png"],
+.innerbattle img:last-child[src*="pawmot.png"],
+.innerbattle img:last-child[src*="tandemaus.png"],
+.innerbattle img:last-child[src*="maushold.png"],
+.innerbattle img:last-child[src*="fidough.png"],
+.innerbattle img:last-child[src*="dachsbun.png"],
+.innerbattle img:last-child[src*="squawkabilly.png"],
+.innerbattle img:last-child[src*="nacli.png"],
+.innerbattle img:last-child[src*="naclstack.png"],
+.innerbattle img:last-child[src*="garganacl.png"],
+.innerbattle img:last-child[src*="charcadet.png"],
+.innerbattle img:last-child[src*="armarouge.png"],
+.innerbattle img:last-child[src*="ceruledge.png"],
+.innerbattle img:last-child[src*="tadbulb.png"],
+.innerbattle img:last-child[src*="bellibolt.png"],
+.innerbattle img:last-child[src*="wattrel.png"],
+.innerbattle img:last-child[src*="kilowattrel.png"],
+.innerbattle img:last-child[src*="maschiff.png"],
+.innerbattle img:last-child[src*="mabosstiff.png"],
+.innerbattle img:last-child[src*="shroodle.png"],
+.innerbattle img:last-child[src*="grafaiai.png"],
+.innerbattle img:last-child[src*="bramblin.png"],
+.innerbattle img:last-child[src*="brambleghast.png"],
+.innerbattle img:last-child[src*="toedscool.png"],
+.innerbattle img:last-child[src*="toedscruel.png"],
+.innerbattle img:last-child[src*="klawf.png"],
+.innerbattle img:last-child[src*="tinkatink.png"],
+.innerbattle img:last-child[src*="tinkatuff.png"],
+.innerbattle img:last-child[src*="tinkaton.png"],
+.innerbattle img:last-child[src*="bombirdier.png"],
+.innerbattle img:last-child[src*="varoom.png"],
+.innerbattle img:last-child[src*="revavroom.png"],
+.innerbattle img:last-child[src*="cyclizar.png"],
+.innerbattle img:last-child[src*="orthworm.png"],
+.innerbattle img:last-child[src*="glimmet.png"],
+.innerbattle img:last-child[src*="glimmora.png"],
+.innerbattle img:last-child[src*="flamigo.png"],
+.innerbattle img:last-child[src*="cetoddle.png"],
+.innerbattle img:last-child[src*="cetitan.png"],
+.innerbattle img:last-child[src*="tatsugiri.png"],
+.innerbattle img:last-child[src*="annihilape.png"],
+.innerbattle img:last-child[src*="clodsire.png"],
+.innerbattle img:last-child[src*="kingambit.png"],
+.innerbattle img:last-child[src*="greattusk.png"],
+.innerbattle img:last-child[src*="screamtail.png"],
+.innerbattle img:last-child[src*="brutebonnet.png"],
+.innerbattle img:last-child[src*="fluttermane.png"],
+.innerbattle img:last-child[src*="slitherwing.png"],
+.innerbattle img:last-child[src*="sandyshocks.png"],
+.innerbattle img:last-child[src*="irontreads.png"],
+.innerbattle img:last-child[src*="ironbundle.png"],
+.innerbattle img:last-child[src*="ironhands.png"],
+.innerbattle img:last-child[src*="ironjugulis.png"],
+.innerbattle img:last-child[src*="ironmoth.png"],
+.innerbattle img:last-child[src*="ironthorns.png"],
+.innerbattle img:last-child[src*="frigibax.png"],
+.innerbattle img:last-child[src*="arctibax.png"],
+.innerbattle img:last-child[src*="baxcalibur.png"],
+.innerbattle img:last-child[src*="gimmighoul.png"],
+.innerbattle img:last-child[src*="gholdengo.png"],
+.innerbattle img:last-child[src*="wochien.png"],
+.innerbattle img:last-child[src*="chienpao.png"],
+.innerbattle img:last-child[src*="tinglu.png"],
+.innerbattle img:last-child[src*="chiyu.png"],
+.innerbattle img:last-child[src*="roaringmoon.png"],
+.innerbattle img:last-child[src*="ironvaliant.png"],
+.innerbattle img:last-child[src*="koraidon.png"],
+.innerbattle img:last-child[src*="miraidon.png"],
+.innerbattle img:last-child[src*="walkingwake.png"],
+.innerbattle img:last-child[src*="ironleaves.png"],
+.innerbattle img:last-child[src*="dipplin.png"],
+.innerbattle img:last-child[src*="poltchageist.png"],
+.innerbattle img:last-child[src*="sinistcha.png"],
+.innerbattle img:last-child[src*="okidogi.png"],
+.innerbattle img:last-child[src*="munkidori.png"],
+.innerbattle img:last-child[src*="fezandipiti.png"],
+.innerbattle img:last-child[src*="ogerpon.png"],
+.innerbattle img:last-child[src*="archaludon.png"],
+.innerbattle img:last-child[src*="hydrapple.png"],
+.innerbattle img:last-child[src*="gougingfire.png"],
+.innerbattle img:last-child[src*="ragingbolt.png"],
+.innerbattle img:last-child[src*="ironboulder.png"],
+.innerbattle img:last-child[src*="ironcrown.png"],
+.innerbattle img:last-child[src*="terapagos.png"],
+.innerbattle img:last-child[src*="pecharunt.png"]
+{ display: none !important; }
+
+/* Ajouter ces images à la place */
+.innerbattle div:has(img:last-child[src*="pawmi.png"]):after { background-image: url("https://i.imgur.com/4QhfsW5.gif"); }
+.innerbattle div:has(img:last-child[src*="pawmo.png"]):after { background-image: url("https://i.imgur.com/aXfqAr1.gif"); }
+.innerbattle div:has(img:last-child[src*="pawmot.png"]):after { background-image: url("https://i.imgur.com/KTUMvBy.gif"); }
+.innerbattle div:has(img:last-child[src*="tandemaus.png"]):after { background-image: url("https://i.imgur.com/Oi5cHyk.gif"); }
+.innerbattle div:has(img:last-child[src*="maushold.png"]):after { background-image: url("https://i.imgur.com/iC0H5LH.gif"); }
+.innerbattle div:has(img:last-child[src*="fidough.png"]):after { background-image: url("https://i.imgur.com/hho5EED.gif"); }
+.innerbattle div:has(img:last-child[src*="dachsbun.png"]):after { background-image: url("https://i.imgur.com/uDYNxBW.gif"); }
+.innerbattle div:has(img:last-child[src*="squawkabilly.png"]):after { background-image: url("https://i.imgur.com/3Rmyf7g.gif"); }
+.innerbattle div:has(img:last-child[src*="nacli.png"]):after { background-image: url("https://i.imgur.com/ZFTGXUc.gif"); }
+.innerbattle div:has(img:last-child[src*="naclstack.png"]):after { background-image: url("https://i.imgur.com/fPrnObx.gif"); }
+.innerbattle div:has(img:last-child[src*="garganacl.png"]):after { background-image: url("https://i.imgur.com/ONAejXq.gif"); }
+.innerbattle div:has(img:last-child[src*="charcadet.png"]):after { background-image: url("https://i.imgur.com/RxlJ8SL.gif"); }
+.innerbattle div:has(img:last-child[src*="armarouge.png"]):after { background-image: url("https://i.imgur.com/9rwKG5c.gif"); }
+.innerbattle div:has(img:last-child[src*="ceruledge.png"]):after { background-image: url("https://i.imgur.com/ia4lcZs.gif"); }
+.innerbattle div:has(img:last-child[src*="tadbulb.png"]):after { background-image: url("https://i.imgur.com/e3b4eZF.gif"); }
+.innerbattle div:has(img:last-child[src*="bellibolt.png"]):after { background-image: url("https://i.imgur.com/QC5Eu5A.gif"); }
+.innerbattle div:has(img:last-child[src*="wattrel.png"]):after { background-image: url("https://i.imgur.com/zO8j0qB.gif"); }
+.innerbattle div:has(img:last-child[src*="kilowattrel.png"]):after { background-image: url("https://i.imgur.com/7Ib7x36.gif"); }
+.innerbattle div:has(img:last-child[src*="maschiff.png"]):after { background-image: url("https://i.imgur.com/3wLFq8X.gif"); }
+.innerbattle div:has(img:last-child[src*="mabosstiff.png"]):after { background-image: url("https://i.imgur.com/uIBkccS.gif"); }
+.innerbattle div:has(img:last-child[src*="shroodle.png"]):after { background-image: url("https://i.imgur.com/qjX3mYF.gif"); }
+.innerbattle div:has(img:last-child[src*="grafaiai.png"]):after { background-image: url("https://i.imgur.com/QY75YGm.gif"); }
+.innerbattle div:has(img:last-child[src*="bramblin.png"]):after { background-image: url("https://i.imgur.com/6Sl8kdx.gif"); }
+.innerbattle div:has(img:last-child[src*="brambleghast.png"]):after { background-image: url("https://i.imgur.com/6Iv4C6q.gif"); }
+.innerbattle div:has(img:last-child[src*="toedscool.png"]):after { background-image: url("https://i.imgur.com/ctCNVfV.gif"); }
+.innerbattle div:has(img:last-child[src*="toedscruel.png"]):after { background-image: url("https://i.imgur.com/55vELg2.gif"); }
+.innerbattle div:has(img:last-child[src*="klawf.png"]):after { background-image: url("https://i.imgur.com/Zpc6y0m.gif"); }
+.innerbattle div:has(img:last-child[src*="tinkatink.png"]):after { background-image: url("https://i.imgur.com/CWEDwa4.gif"); }
+.innerbattle div:has(img:last-child[src*="tinkatuff.png"]):after { background-image: url("https://i.imgur.com/ld7EnYO.gif"); }
+.innerbattle div:has(img:last-child[src*="tinkaton.png"]):after { background-image: url("https://i.imgur.com/P5YyScd.gif"); }
+.innerbattle div:has(img:last-child[src*="bombirdier.png"]):after { background-image: url("https://i.imgur.com/vhd9p5E.gif"); }
+.innerbattle div:has(img:last-child[src*="varoom.png"]):after { background-image: url("https://i.imgur.com/e4Naze0.gif"); }
+.innerbattle div:has(img:last-child[src*="revavroom.png"]):after { background-image: url("https://i.imgur.com/EmIiy3p.gif"); }
+.innerbattle div:has(img:last-child[src*="cyclizar.png"]):after { background-image: url("https://i.imgur.com/jq37GGh.gif"); }
+.innerbattle div:has(img:last-child[src*="orthworm.png"]):after { background-image: url("https://i.imgur.com/56dFfW6.gif"); }
+.innerbattle div:has(img:last-child[src*="glimmet.png"]):after { background-image: url("https://i.imgur.com/pugbzrn.gif"); }
+.innerbattle div:has(img:last-child[src*="glimmora.png"]):after { background-image: url("https://i.imgur.com/8yJpM0j.gif"); }
+.innerbattle div:has(img:last-child[src*="flamigo.png"]):after { background-image: url("https://i.imgur.com/lGyimXH.gif"); }
+.innerbattle div:has(img:last-child[src*="cetoddle.png"]):after { background-image: url("https://i.imgur.com/Xtud5wq.gif"); }
+.innerbattle div:has(img:last-child[src*="cetitan.png"]):after { background-image: url("https://i.imgur.com/P69FasD.gif"); }
+.innerbattle div:has(img:last-child[src*="tatsugiri.png"]):after { background-image: url("https://i.imgur.com/wpd7qIZ.gif"); }
+.innerbattle div:has(img:last-child[src*="annihilape.png"]):after { background-image: url("https://i.imgur.com/SiXoDey.gif"); }
+.innerbattle div:has(img:last-child[src*="clodsire.png"]):after { background-image: url("https://i.imgur.com/KoINnKn.gif"); }
+.innerbattle div:has(img:last-child[src*="kingambit.png"]):after { background-image: url("https://i.imgur.com/nLGOrhp.gif"); }
+.innerbattle div:has(img:last-child[src*="greattusk.png"]):after { background-image: url("https://i.imgur.com/BKoB1um.gif"); }
+.innerbattle div:has(img:last-child[src*="screamtail.png"]):after { background-image: url("https://i.imgur.com/afI7zq0.gif"); }
+.innerbattle div:has(img:last-child[src*="brutebonnet.png"]):after { background-image: url("https://i.imgur.com/hYaASlo.gif"); }
+.innerbattle div:has(img:last-child[src*="fluttermane.png"]):after { background-image: url("https://i.imgur.com/Pi6cyvw.gif"); }
+.innerbattle div:has(img:last-child[src*="slitherwing.png"]):after { background-image: url("https://i.imgur.com/FJOp2il.gif"); }
+.innerbattle div:has(img:last-child[src*="sandyshocks.png"]):after { background-image: url("https://i.imgur.com/uaHcyBr.gif"); }
+.innerbattle div:has(img:last-child[src*="irontreads.png"]):after { background-image: url("https://i.imgur.com/oVCqZ0l.gif"); }
+.innerbattle div:has(img:last-child[src*="ironbundle.png"]):after { background-image: url("https://i.imgur.com/LHfyiHO.gif"); }
+.innerbattle div:has(img:last-child[src*="ironhands.png"]):after { background-image: url("https://i.imgur.com/mDam2xp.gif"); }
+.innerbattle div:has(img:last-child[src*="ironjugulis.png"]):after { background-image: url("https://i.imgur.com/urnjKJ1.gif"); }
+.innerbattle div:has(img:last-child[src*="ironmoth.png"]):after { background-image: url("https://i.imgur.com/r2UbOAg.gif"); }
+.innerbattle div:has(img:last-child[src*="ironthorns.png"]):after { background-image: url("https://i.imgur.com/N0rqy4b.gif"); }
+.innerbattle div:has(img:last-child[src*="frigibax.png"]):after { background-image: url("https://i.imgur.com/eOKT8BK.gif"); }
+.innerbattle div:has(img:last-child[src*="arctibax.png"]):after { background-image: url("https://i.imgur.com/hC4UIGu.gif"); }
+.innerbattle div:has(img:last-child[src*="baxcalibur.png"]):after { background-image: url("https://i.imgur.com/UneYNxC.gif"); }
+.innerbattle div:has(img:last-child[src*="gimmighoul.png"]):after { background-image: url("https://i.imgur.com/omxr86B.gif"); }
+.innerbattle div:has(img:last-child[src*="gholdengo.png"]):after { background-image: url("https://i.imgur.com/xgdfr3y.gif"); }
+.innerbattle div:has(img:last-child[src*="wochien.png"]):after { background-image: url("https://i.imgur.com/AUj59Je.gif"); }
+.innerbattle div:has(img:last-child[src*="chienpao.png"]):after { background-image: url("https://i.imgur.com/jFUqdnv.gif"); }
+.innerbattle div:has(img:last-child[src*="tinglu.png"]):after { background-image: url("https://i.imgur.com/ASXfmrG.gif"); }
+.innerbattle div:has(img:last-child[src*="chiyu.png"]):after { background-image: url("https://i.imgur.com/mbf5AA3.gif"); }
+.innerbattle div:has(img:last-child[src*="roaringmoon.png"]):after { background-image: url("https://i.imgur.com/vB6otFT.gif"); }
+.innerbattle div:has(img:last-child[src*="ironvaliant.png"]):after { background-image: url("https://i.imgur.com/rqDykQ3.gif"); }
+.innerbattle div:has(img:last-child[src*="koraidon.png"]):after { background-image: url("https://i.imgur.com/3HfZBJC.gif"); }
+.innerbattle div:has(img:last-child[src*="miraidon.png"]):after { background-image: url("https://i.imgur.com/L62dUNU.gif"); }
+.innerbattle div:has(img:last-child[src*="walkingwake.png"]):after { background-image: url("https://i.imgur.com/emFcy6h.gif"); }
+.innerbattle div:has(img:last-child[src*="ironleaves.png"]):after { background-image: url("https://i.imgur.com/w6BYIAs.gif"); }
+.innerbattle div:has(img:last-child[src*="dipplin.png"]):after { background-image: url("https://i.imgur.com/8kpIllQ.gif"); }
+.innerbattle div:has(img:last-child[src*="poltchageist.png"]):after { background-image: url("https://i.imgur.com/10H5miN.gif"); }
+.innerbattle div:has(img:last-child[src*="sinistcha.png"]):after { background-image: url("https://i.imgur.com/KdOtMMJ.gif"); }
+.innerbattle div:has(img:last-child[src*="okidogi.png"]):after { background-image: url("https://i.imgur.com/i1Kq4Dj.gif"); }
+.innerbattle div:has(img:last-child[src*="munkidori.png"]):after { background-image: url("https://i.imgur.com/bEXPnAo.gif"); }
+.innerbattle div:has(img:last-child[src*="fezandipiti.png"]):after { background-image: url("https://i.imgur.com/x5nvhMH.gif"); }
+.innerbattle div:has(img:last-child[src*="ogerpon.png"]):after { background-image: url("https://i.imgur.com/z2im19F.gif"); }
+.innerbattle div:has(img:last-child[src*="archaludon.png"]):after { background-image: url("https://i.imgur.com/8jiKdyZ.gif"); }
+.innerbattle div:has(img:last-child[src*="hydrapple.png"]):after { background-image: url("https://i.imgur.com/D03ZGeb.gif"); }
+.innerbattle div:has(img:last-child[src*="gougingfire.png"]):after { background-image: url("https://i.imgur.com/Wn6dTx8.gif"); }
+.innerbattle div:has(img:last-child[src*="ragingbolt.png"]):after { background-image: url("https://i.imgur.com/JP8ay7g.gif"); }
+.innerbattle div:has(img:last-child[src*="ironboulder.png"]):after { background-image: url("https://i.imgur.com/o0WOF0e.gif"); }
+.innerbattle div:has(img:last-child[src*="ironcrown.png"]):after { background-image: url("https://i.imgur.com/qGZsUBI.gif"); }
+.innerbattle div:has(img:last-child[src*="terapagos.png"]):after { background-image: url("https://i.imgur.com/2v3D6VE.gif"); }
+.innerbattle div:has(img:last-child[src*="pecharunt.png"]):after { background-image: url("https://i.imgur.com/a7wRpl4.gif"); }
+
+
+/* Formes */
+.innerbattle img:last-child[src*="maushold-four.png"],
+.innerbattle img:last-child[src*="squawkabilly-blue.png"],
+.innerbattle img:last-child[src*="squawkabilly-yellow.png"],
+.innerbattle img:last-child[src*="squawkabilly-white.png"],
+.innerbattle img:last-child[src*="tatsugiri-droopy.png"],
+.innerbattle img:last-child[src*="tatsugiri-stretchy.png"],
+.innerbattle img:last-child[src*="gimmighoul-roaming.png"],
+.innerbattle img:last-child[src*="ogerpon-cornerstone.png"],
+.innerbattle img:last-child[src*="ogerpon-hearthflame.png"],
+.innerbattle img:last-child[src*="ogerpon-wellspring.png"],
+.innerbattle img:last-child[src*="terapagos-terastal.png"]
+{ display: none !important; }
+
+.innerbattle div:has(img:last-child[src*="maushold-four.png"]):after { background-image: url("https://i.imgur.com/1e39ULU.gif"); }
+.innerbattle div:has(img:last-child[src*="squawkabilly-blue.png"]):after { background-image: url("https://i.imgur.com/WVrktGT.gif"); }
+.innerbattle div:has(img:last-child[src*="squawkabilly-yellow.png"]):after { background-image: url("https://i.imgur.com/bmMkyWQ.gif"); }
+.innerbattle div:has(img:last-child[src*="squawkabilly-white.png"]):after { background-image: url("https://i.imgur.com/K73Lqty.gif"); }
+.innerbattle div:has(img:last-child[src*="tatsugiri-droopy.png"]):after { background-image: url("https://i.imgur.com/9VPzKAY.gif"); }
+.innerbattle div:has(img:last-child[src*="tatsugiri-stretchy.png"]):after { background-image: url("https://i.imgur.com/R2guXnF.gif"); }
+.innerbattle div:has(img:last-child[src*="gimmighoul-roaming.png"]):after { background-image: url("https://i.imgur.com/0Qu6evu.gif"); }
+.innerbattle div:has(img:last-child[src*="ogerpon-cornerstone.png"]):after { background-image: url("https://i.imgur.com/Ecxhs5e.gif"); }
+.innerbattle div:has(img:last-child[src*="ogerpon-hearthflame.png"]):after { background-image: url("https://i.imgur.com/ztSbAhj.gif"); }
+.innerbattle div:has(img:last-child[src*="ogerpon-wellspring.png"]):after { background-image: url("https://i.imgur.com/FE9ysNS.gif"); }
+.innerbattle div:has(img:last-child[src*="terapagos-terastal.png"]):after { background-image: url("https://i.imgur.com/R9qZo08.gif"); }
